@@ -1,11 +1,87 @@
-.container {
-    overflow-x: auto;
-    white-space: nowrap;
+#ejemplo-imagenes {
+    overflow-y: scroll;
+    height: 0px;
+    float: right;
 }
 .canvasoriginal {
-  width:300;
-  height:300;
-  border:#000 solid 1px;
-  margin-left:auto;
-  margin-right:auto;
+  width:auto;
+  height:auto;
+  display: block;
+}
+.imagen-original{
+  margin-right:0px;
+}
+.file-upload {
+	position: relative;
+	display: inline-block;
+}
+
+.file-upload__label {
+  display: block;
+  padding: 1em 2em;
+  color: #fff;
+  background: #222;
+  border-radius: .4em;
+  transition: background .3s;
+}
+
+.file-upload__input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 1;
+    width:0;
+    height: 100%;
+    opacity: 0;
+}
+html{
+  overflow: hidden;
+}
+body {
+  background-color: #e3e3e3;
+}
+
+#btn-download {
+  display: none;
+  width: 50%;
+  position: relative;
+  float: left;
+
+  
+  background-color: #4CC713;
+  color: white;
+  
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 0.9em;
+  text-align: center;
+  text-indent: 15px;
+}
+
+#btn-download:hover {
+  background-color: #333;
+  color: white;
+}
+
+
+#btn-undo {
+  display: none;
+  width: 50%;
+  position: relative;
+  float: right;
+  
+  background-color: #f3f3f3;
+  color: black;
+  
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 0.9em;
+  text-align: center;
+  text-indent: 15px;
+}
+#btn-undo:hover {
+  background-color: #333;
+  color: white;
 }
