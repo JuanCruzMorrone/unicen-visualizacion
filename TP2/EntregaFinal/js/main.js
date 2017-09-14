@@ -185,7 +185,7 @@ buttonfacil.addEventListener('click', function (e) {
   for (var i = 0; i < torres.length; i++) {
     torres[i].draw("canvas-hanoi");
   }
-  canvas.style.display="block"
+ canvas.style.display="inline-block"
   page.style.display="none"
 })
 buttonmedio.addEventListener('click', function (e) {
@@ -203,7 +203,7 @@ buttonmedio.addEventListener('click', function (e) {
 
     torres[i].draw("canvas-hanoi");
   }
-  canvas.style.display="block"
+  canvas.style.display="inline-block"
   page.style.display="none"
 })
 buttondificil.addEventListener('click', function (e) {
